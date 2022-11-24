@@ -1,0 +1,29 @@
+/* p::before{
+    content: "Hello";
+    color: red;
+    background-color: black;
+} */
+.one{
+    /* background-color: yellow; */
+    background: linear-gradient(rgb(126, 0, 128),rgba(19, 126, 161, 0.386),rgb(141, 186, 18));
+}
+h1::before{
+    content: "Captain";
+    color: violet;
+    background: linear-gradient(green,blue);
+}
+h2::first-letter{
+    color: tomato;
+    background: linear-gradient(white,orange,blue,aqua,black,red);
+}
+p::after{
+    content: "Hello";
+    color: red;
+    background-color: black;
+}
+p{
+    color: cadetblue;
+}
+p::first-line{
+    color: darkmagenta;
+}
